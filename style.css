@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+
+body {
+  font-family: 'Courier Prime', monospace;
+  background-color: #efdff2;
+}
+
+h1, h2 {
+  font-family: 'Courier Prime', monospace;
+  text-align: center;
+}
+
+p {
+  font-family: 'Courier Prime', monospace;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 17px;
+}
+
+ img {
+  border-radius: 50%;
+  width: 300px;
+  height: auto;
+ }
+
+ #imgposition {
+  margin: 157px;
+  margin-bottom: 22px;
+  display: flex;
+ }
+
+ #title {
+  padding: 60px;
+  margin: 16px;
+ }
+
+ .youtube-btn {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  margin: -12px;
+  padding:5px;
+  padding-bottom: 0%;
+  border-radius: 10px;
+  font-size: 23px;
+  height: 25px;
+  width: 25px;
+ }
+
+ .insta-btn { background-color: purple;
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  padding:5px;
+  padding-bottom: 0%;
+  border-radius: 10px;
+  font-size: 23px;
+  height: 25px;
+  width: 25px;
+
+ }
+
+ .twitter-btn {  background-color: #00acee;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  padding-bottom: 0%;
+  border-radius: 10px;
+  font-size: 23px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+
+ }
+
+ .linkedIn-btn {  background-color: lightskyblue;
+  color: white;
+  text-decoration: none;
+  margin: 3px;
+  padding:5px;
+  padding-bottom: 0%;
+  border-radius: 10px;
+  font-size: 23px;
+  height: 25px;
+  width: 25px;
+
+ }
+
+ .list {
+list-style: none;
+ }
+
+ .list li {
+  display:inline-block;
+ }
+
+ .aboutme {
+ padding: 25px 50px;
+ line-height: 1.5;
+ }
+
+ .icons-for-social-allign {
+  text-align: right;
+ }
+
+ .socials-header-style {
+  text-align: right;
+  margin-right: 60px;
+    font-size: 18px;
+ }
+
+ .container {
+  margin: 10px;
+  padding: 5px;
+ }
+
+ @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 1167px;
+}
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 691px;
+  }
+  #imgposition {
+    margin: -18px;
+    margin-bottom: 61px;
+    display: flex;
+}
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 683px;
+  }
+
+  #imgposition {
+    margin: 14px;
+    margin-bottom: -28px;
+    display: flex;
+}
+
+#title {
+  padding: 10px;
+  margin: 52px;
+}
+
+
+}
